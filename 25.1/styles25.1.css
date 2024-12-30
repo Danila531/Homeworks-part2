@@ -1,0 +1,12 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: #f8f9fa;
+}
+
+#emoji-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin: 20px 0;
+}
