@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Форма з валідацією</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h2>Надсилання повідомлення</h2>
+
+		<form id="contactForm">
+			<label for="name">Ім'я:</label>
+			<input type="text" class="name" name="name" />
+			<span class="error nameError"></span>
+
+			<label for="message">Повідомлення:</label>
+			<textarea class="message" name="message"></textarea>
+			<span class="error messageError"></span>
+
+			<label for="phone">Номер телефону:</label>
+			<input type="text" class="phone" name="phone" />
+			<span class="error phoneError"></span>
+
+			<label for="email">Email:</label>
+			<input type="text" class="email" name="email" />
+			<span class="error emailError"></span>
+
+			<button type="submit">Надіслати</button>
+		</form>
+		<script src="script.js"></script>
+	</body>
+</html>
